@@ -44,7 +44,7 @@ Or you can clone the latest development version from the Git repository with:
 
 .. code-block:: console
 
- git clone https://github.com/nkaz001/hftbacktest
+ git clone https://github.com/apronobis/algo-backtest
 
 Data Source & Format
 --------------------
@@ -175,11 +175,11 @@ Tutorials
 Examples
 ========
 
-You can find more examples in `examples <https://github.com/nkaz001/hftbacktest/tree/master/examples>`_ directory and `Rust examples <https://github.com/nkaz001/hftbacktest/blob/master/hftbacktest/examples/>`_.
+You can find more examples in `examples <https://github.com/apronobis/algo-backtest/tree/master/examples>`_ directory and `Rust examples <https://github.com/apronobis/algo-backtest/blob/master/hftbacktest/examples/>`_.
 
 The complete process of backtesting Binance Futures
 ---------------------------------------------------
-`high-frequency gridtrading <https://github.com/nkaz001/hftbacktest/blob/master/hftbacktest/examples/gridtrading.ipynb>`_: The complete process of backtesting Binance Futures using a high-frequency grid trading strategy implemented in Rust.
+`high-frequency gridtrading <https://github.com/apronobis/algo-backtest/blob/master/hftbacktest/examples/gridtrading.ipynb>`_: The complete process of backtesting Binance Futures using a high-frequency grid trading strategy implemented in Rust.
 
 Migration to V2
 ===============
@@ -193,7 +193,7 @@ The imminent task is to integrate hftbacktest in Python with hftbacktest in Rust
 Meanwhile, the data format, which is currently different, needs to be unified.
 On the pure Python side, the performance reporting tool should be improved to provide more performance metrics with increased speed.
 
-Please see the `roadmap <https://github.com/nkaz001/hftbacktest/blob/master/ROADMAP.md>`_.
+Please see the `roadmap <https://github.com/apronobis/algo-backtest/blob/master/ROADMAP.md>`_.
 
 Contributing
 ============
@@ -203,15 +203,15 @@ idea for an enhancement or a bug fix, please open an issue or discussion on GitH
 
 The following items are examples of contributions you can make to this project:
 
-Please see the `roadmap <https://github.com/nkaz001/hftbacktest/blob/master/ROADMAP.md>`_.
+Please see the `roadmap <https://github.com/apronobis/algo-backtest/blob/master/ROADMAP.md>`_.
 
 .. |python| image:: https://shields.io/badge/python-3.10-blue
     :alt: Python Version
     :target: https://www.python.org/
 
-.. |codeql| image:: https://github.com/nkaz001/hftbacktest/actions/workflows/codeql.yml/badge.svg?branch=master&event=push
+.. |codeql| image:: https://github.com/apronobis/algo-backtest/actions/workflows/codeql.yml/badge.svg?branch=master&event=push
     :alt: CodeQL
-    :target: https://github.com/nkaz001/hftbacktest/actions/workflows/codeql.yml
+    :target: https://github.com/apronobis/algo-backtest/actions/workflows/codeql.yml
 
 .. |pypi| image:: https://badge.fury.io/py/hftbacktest.svg
     :alt: Package Version
@@ -227,18 +227,18 @@ Please see the `roadmap <https://github.com/nkaz001/hftbacktest/blob/master/ROAD
 
 .. |license| image:: https://img.shields.io/badge/License-MIT-green.svg
     :alt: License
-    :target: https://github.com/nkaz001/hftbacktest/blob/master/LICENSE
+    :target: https://github.com/apronobis/algo-backtest/blob/master/LICENSE
 
 .. |docs| image:: https://readthedocs.org/projects/hftbacktest/badge/?version=latest
     :target: https://hftbacktest.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
 .. |roadmap| image:: https://img.shields.io/badge/Roadmap-gray
-    :target: https://github.com/nkaz001/hftbacktest/blob/master/ROADMAP.md
+    :target: https://github.com/apronobis/algo-backtest/blob/master/ROADMAP.md
     :alt: Roadmap
 
 .. |github| image:: https://img.shields.io/github/stars/nkaz001/hftbacktest?style=social
-    :target: https://github.com/nkaz001/hftbacktest
+    :target: https://github.com/apronobis/algo-backtest
     :alt: Github
 
 .. |rustc| image:: https://shields.io/badge/rustc-1.80.1-blue
